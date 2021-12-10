@@ -1,0 +1,86 @@
+/* BASE STYLES
+------------------------------------- */
+
+/* COLOR VARIABLES
+----------------------------------------*/
+:root {
+    --dark: #000000;
+    --lightblue:#DCF7F9;
+    --light: #FFFFFF;
+}
+
+body {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: var(--lightblue);
+  color: var(--light);
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 50%;
+    Width: 500px;
+    Height: 700px;
+    position: absolute;
+    left: 15%;
+    right: 50.19%;
+    top: 25%;
+    bottom: 46.14%;
+}
+
+/* NAVIGATION
+------------------------------------- */
+nav {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 96%;
+    background: #F36874;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+
+}
+
+h1{
+    position: absolute;
+    left: 56.42%;
+    right: 26.07%;
+    top: 65%;
+    bottom: 79.95%;
+    font-size: 30px;
+    line-height: 14px;
+    color: var(--dark);
+}
+
+p {
+    position: absolute;
+    left: 56.42%;
+    right: 5.45%;
+    top: 75%;
+    bottom: 57.49%;
+    font-size: 25px;
+    line-height: 25px;
+    color: var(--dark);
+}
+
+
+
+/* HOME PAGE
+------------------------------------- */
+main {
+
+}
+
